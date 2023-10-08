@@ -169,10 +169,9 @@
   letter-spacing: 0.02em;
   color: var(--color-nav-default);
 }
+
+.nav-link:focus,
 .nav-link:hover {
-  color: #404bbf;
-}
-.nav-link:focus {
   color: #404bbf;
 }
 
@@ -187,11 +186,8 @@
   color: var(--color-address-link-default);
 }
 
+.ad-menu:focus,
 .ad-menu:hover {
-  color: #404bbf;
-}
-
-.ad-menu:focus {
   color: #404bbf;
 }
 
@@ -224,22 +220,8 @@
   border-color: transparent 50%;
   cursor: pointer;
 }
+.portfolio-btn:focus,
 .portfolio-btn:hover {
-  font-family: inherit;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  color: #fff;
-  background-color: #404bbf;
-  background-color: transparent 50%;
-  border-color: #404bbf;
-  border-color: transparent 50%;
-  cursor: pointer;
-}
-
-.portfolio-btn:focus {
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
