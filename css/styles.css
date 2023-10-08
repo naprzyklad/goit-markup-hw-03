@@ -1,28 +1,49 @@
 :root {
-  /*Studio*/
+  /*__________________________________________________________Studio*/
   --hero-bg-color: #2e2f42;
   --head-color: #2e2f42;
   --content-color: #434455;
-  /*PORTFOLIO*/
+  /*__________________________________________________________PORTFOLIO*/
   --color-body: #434455;
   --bg-color: #ffffff;
-  /* LOGO */
+  /*__________________________________________________________LOGO*/
   --color-logo: #4d5ae5;
   --color-logo-studio: #2e2f42;
   --footer-logo-color: #f4f4fd;
-  /*NAV MENU*/
+  /*__________________________________________________________NAV MENU*/
   --color-nav-default: #2e2f42;
-  /*ADRESS*/
+  /*__________________________________________________________ADRESS*/
   --color-address-link-default: #434455;
-  /*BUTTONS*/
+  /*__________________________________________________________BUTTONS*/
   --button-color: #4d5ae5;
 }
-/*Studio*/
+
+/*__________________________________________________________general body settings_______________________________________________________*/
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-body);
+  background-color: var(--bg-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  font-style: normal;
+  list-style: none;
+}
+.container {
+}
+.section {
+  padding: 7.5em 0 7.5em 0;
+}
+
+/*_________________________________________________________________________________________________________________*/
+/*__________________________________________________________Studio__________________________________________________________*/
 .hero {
   background-color: var(--hero-bg-color);
 }
-/*Hero section*/
-/*Main title*/
+/*__________________________________________________________Hero section__________________________________________________________*/
+/*__________________________________________________________Main title*/
 .head-title {
   font-size: 56px;
   line-height: 1.07;
@@ -30,7 +51,7 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-/*Order Service Button*/
+/*__________________________________________________________Order Service Button____________________________________________________*/
 .order-button {
   background-color: #4d5ae5;
   font-family: inherit;
@@ -50,8 +71,8 @@
   cursor: pointer;
 }
 
-/*Goals section*/
-/*Company goal list*/
+/*__________________________________________________________Goals section__________________________________________________________*/
+/*__________________________________________________________Company goal list__________________________________________________________*/
 .goals {
   font-weight: 500;
   font-size: 20px;
@@ -67,7 +88,7 @@
   color: var(--content-color);
 }
 
-/*WHAT ARE WE DOING*/
+/*__________________________________________________________WHAT ARE WE DOING__________________________________________________________*/
 .wawd {
   font-size: 36px;
   line-height: 1.11;
@@ -77,7 +98,7 @@
   color: var(--head-color);
 }
 
-/*Team*/
+/*__________________________________________________________Team__________________________________________________________*/
 .list-team {
   background-color: #ffffff;
 }
@@ -99,7 +120,8 @@
   letter-spacing: 0.02em;
   color: var(--head-color);
 }
-/*Used for portfolio in picture paragraph*/
+
+/*Used also for portfolio in picture paragraph*/
 .job {
   font-size: 16px;
   line-height: 1.5;
@@ -107,6 +129,7 @@
   color: var(--content-color);
 }
 
+/*__________________________________________________________Footer__________________________________________________________*/
 .footer {
   background-color: #2e2f42;
 }
@@ -116,23 +139,9 @@
   letter-spacing: 0.02em;
 }
 
-/*Portfolio*/
-/*general body settings*/
-.body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-body);
-  background-color: var(--bg-color);
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  font-style: normal;
-  list-style: none;
-}
-
-/*LOGO*/
-
+/*_____________________________________________________________________________________________________________________________________*/
+/*__________________________________________________________________Portfolio__________________________________________________________*/
+/*__________________________________________________________LOGO__________________________________________________________*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -160,16 +169,14 @@
   letter-spacing: 0.02em;
   color: var(--color-nav-default);
 }
-
 .nav-link:hover {
   color: #404bbf;
 }
-
 .nav-link:focus {
   color: #404bbf;
 }
 
-/*ADDRESS*/
+/*__________________________________________________________ADDRESS_________________________________*/
 .address {
   font-style: normal;
 }
@@ -195,7 +202,13 @@
   letter-spacing: 0.02em;
   color: var(--head-color);
 }
-
+/*__________________________________________________________Projects_________________________________*/
+.ul-projects {
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
 /*BUTTONS*/
 .portfolio-btn {
   font-family: inherit;
