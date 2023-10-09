@@ -304,6 +304,7 @@
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--head-color);
+  margin-bottom: 8px;
 }
 
 .ul-projects {
@@ -322,7 +323,6 @@
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 /*_______________________________________________________________FILTER BUTTONS___________________________________________*/
 .filter-list {
