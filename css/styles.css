@@ -98,6 +98,7 @@
 
 .navigation {
   display: flex;
+  gap: 332px;
 }
 .nav-menu {
   display: flex;
@@ -135,6 +136,7 @@
   color: var(--footer-logo-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 /*__________________________________________________________Hero section__________________________________________________________*/
 /*__________________________________________________________Main title___________________________________________________________*/
@@ -149,6 +151,12 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+}
+.head-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 /*__________________________________________________________Order Service Button_______________________________________________*/
 .order-button {
@@ -210,6 +218,10 @@
   width: calc((100% - 72px) / 4);
 }
 /*__________________________________________________________WHAT ARE WE DOING_____________________________________________________*/
+.wawd-section {
+  padding-top: 0;
+  padding-bottom: 120px;
+}
 .wawd {
   font-size: 36px;
   line-height: 1.11;
