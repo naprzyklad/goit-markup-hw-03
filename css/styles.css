@@ -284,7 +284,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color);
-  text-align: center;
 }
 
 .team-photo {
@@ -294,6 +293,11 @@
 /*_____________________________________________________________________________________________________________________________________*/
 /*_____________________________________________________________Portfolio______________________________________________________________*/
 /*_____________________________________________________________Projects_____________________________________________________________*/
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .project {
   line-height: 1.2;
   font-weight: 500;
@@ -306,9 +310,27 @@
   display: flex;
   flex: wrap;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-/*BUTTONS*/
+.list-project {
+  width: calc((100% - 48px) / 3);
+}
+
+.project-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+/*_______________________________________________________________FILTER BUTTONS___________________________________________*/
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .portfolio-btn {
   font-family: inherit;
   font-size: 16px;
@@ -319,9 +341,12 @@
   color: var(--button-color);
   background-color: #f4f4fd;
   background-color: transparent 50%;
+  border: 1px solid #e7e9fc;
   border-color: #e7e9fc;
   border-color: transparent 50%;
   cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
@@ -334,6 +359,7 @@
   color: #fff;
   background-color: #404bbf;
   background-color: transparent 50%;
+  border: 1px solid transparent;
   border-color: #404bbf;
   border-color: transparent 50%;
   cursor: pointer;
