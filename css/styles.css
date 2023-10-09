@@ -278,12 +278,12 @@
   margin-bottom: 8px;
 }
 
-/*Used also for portfolio in picture paragraph*/
 .job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color);
+  text-align: center;
 }
 
 .team-photo {
@@ -331,6 +331,12 @@
   gap: 24px;
   margin-bottom: 72px;
 }
+.job-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--content-color);
+}
 .portfolio-btn {
   font-family: inherit;
   font-size: 16px;
@@ -358,9 +364,6 @@
   letter-spacing: 0.64px;
   color: #fff;
   background-color: #404bbf;
-  background-color: transparent 50%;
   border: 1px solid transparent;
-  border-color: #404bbf;
-  border-color: transparent 50%;
   cursor: pointer;
 }
